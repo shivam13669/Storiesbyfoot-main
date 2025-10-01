@@ -1,12 +1,7 @@
 import type { LucideIcon } from "lucide-react";
+import { Flag, Landmark, Mountain, MountainSnow, Waves } from "lucide-react";
 
-export type DestinationIcon =
-  | "mountains"
-  | "pagoda"
-  | "waterfall"
-  | "flag"
-  | "valley"
-  | "temple";
+export type DestinationIcon = "mountain" | "landmark" | "waves" | "flag" | "mountainSnow";
 
 export type DestinationPackage = {
   name: string;
@@ -50,7 +45,7 @@ export const destinations: Destination[] = [
       "Ride across iconic Himalayan passes, share butter tea in remote villages, and wake up to surreal moonscapes beside Pangong Tso.",
     heroImage:
       "https://images.unsplash.com/photo-1526481280695-3c4693df8ced?auto=format&fit=crop&w=1600&q=80",
-    icon: "mountains",
+    icon: "mountain",
     badge: "Trending",
     quickFacts: {
       bestTime: "June – September",
@@ -120,7 +115,7 @@ export const destinations: Destination[] = [
       "Trace the ancient pilgrim trail from Tawang's snow-clad passes to Bhutan's emerald valleys and fortress monasteries.",
     heroImage:
       "https://images.unsplash.com/photo-1558180079-7f0f7180a5ec?auto=format&fit=crop&w=1600&q=80",
-    icon: "temple",
+    icon: "landmark",
     badge: "New",
     quickFacts: {
       bestTime: "October – April",
@@ -169,7 +164,7 @@ export const destinations: Destination[] = [
       "Meander through cloud forests, discover subterranean rivers, and unwind in the cleanest village in Asia.",
     heroImage:
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
-    icon: "waterfall",
+    icon: "waves",
     quickFacts: {
       bestTime: "September – May",
       startPoint: "Shillong Airport",
@@ -266,7 +261,7 @@ export const destinations: Destination[] = [
       "Journey to Zanskar's cliff-hung gompas, raft sapphire rivers, and brave the legendary Chadar trail.",
     heroImage:
       "https://images.unsplash.com/photo-1512238701577-f182d9ef8af7?auto=format&fit=crop&w=1600&q=80",
-    icon: "valley",
+    icon: "mountainSnow",
     quickFacts: {
       bestTime: "July – September",
       startPoint: "Kargil",
@@ -305,63 +300,14 @@ export const destinations: Destination[] = [
       },
     ],
   },
-  {
-    slug: "sikkim",
-    name: "Sikkim",
-    region: "India",
-    tagline: "Gleaming glaciers and rhododendron trails",
-    summary:
-      "Wake to Kanchenjunga views, sip butter tea in Lachen, and follow prayer flags to alpine meadows.",
-    heroImage:
-      "https://images.unsplash.com/photo-1523512080005-89434e33ef42?auto=format&fit=crop&w=1600&q=80",
-    icon: "pagoda",
-    quickFacts: {
-      bestTime: "April – June · Sep – Nov",
-      startPoint: "Bagdogra Airport",
-      travelStyle: "Mountain drives & village stays",
-    },
-    packages: [
-      {
-        name: "North Sikkim Explorer",
-        duration: "7 days · 6 nights",
-        description:
-          "Traverse Gurudongmar Lake, Lachung, and Yumthang valley with local naturalists.",
-        price: "₹32,400",
-        rating: 4.7,
-        reviews: 233,
-        highlights: [
-          "Kanchenjunga sunrise",
-          "Private 4x4 vehicles",
-          "Hot spring dip",
-          "Village stay in Lachung",
-        ],
-      },
-      {
-        name: "Sikkim Heritage Sojourn",
-        duration: "6 days · 5 nights",
-        description:
-          "Immerse in monasteries of Rumtek & Pemayangtse, organic farm tours, and tea estate walks in Temi.",
-        price: "₹28,700",
-        rating: 4.6,
-        reviews: 175,
-        highlights: [
-          "Tea tasting masterclass",
-          "Rumtek chanting session",
-          "Temi tea garden stay",
-          "Yuksom heritage trail",
-        ],
-      },
-    ],
-  },
 ];
 
 export const destinationIconMap: Record<DestinationIcon, LucideIcon> = {
-  mountains: require("lucide-react").Mountain,
-  temple: require("lucide-react").Landmark,
-  waterfall: require("lucide-react").Waves,
-  flag: require("lucide-react").Flag,
-  valley: require("lucide-react").Landscape,
-  pagoda: require("lucide-react").Building,
+  mountain: Mountain,
+  landmark: Landmark,
+  waves: Waves,
+  flag: Flag,
+  mountainSnow: MountainSnow,
 };
 
 export const getDestinationBySlug = (slug: string) =>
