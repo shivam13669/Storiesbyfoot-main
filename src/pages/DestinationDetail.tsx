@@ -11,7 +11,6 @@ import {
   MapPin,
   Star,
 } from "lucide-react";
-import { Fragment } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 
 const DestinationDetailPage = () => {
