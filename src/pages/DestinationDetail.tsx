@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { DestinationPackage, getDestinationBySlug } from "@/data/destinations";
-import { cn } from "@/lib/utils";
 import {
   ArrowLeft,
   ArrowRight,
