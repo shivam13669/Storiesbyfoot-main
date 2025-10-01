@@ -14,6 +14,7 @@ export type DestinationPackage = {
   reviews: number;
   highlights: string[];
   itineraryUrl?: string;
+  image?: string;
 };
 
 export type DestinationQuickFacts = {
@@ -71,6 +72,8 @@ export const destinations: Destination[] = [
         ],
         itineraryUrl:
           "https://drive.google.com/uc?export=download&id=1kmpsxL3OHHMqjEt8uQaLxvLXkkkXCw0H",
+        image:
+          "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80",
       },
       {
         name: "Ladakh Bike Adventure",
@@ -88,6 +91,8 @@ export const destinations: Destination[] = [
           "Camel safari in Hunder",
           "Pangong Tso sunrise drive",
         ],
+        image:
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?auto=format&fit=crop&w=1600&q=80",
       },
       {
         name: "Ladakh Highlights Private Tour",
@@ -103,6 +108,8 @@ export const destinations: Destination[] = [
           "Lunch with local family",
           "Leh heritage walking tour",
         ],
+        image:
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
       },
     ],
   },
@@ -137,6 +144,8 @@ export const destinations: Destination[] = [
           "Sela Pass snow play",
           "Local monastery homestay",
         ],
+        image:
+          "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1600&q=80",
       },
       {
         name: "Bhutan Festive Escape",
@@ -152,6 +161,8 @@ export const destinations: Destination[] = [
           "Farm-to-table dinners",
           "Dochula 108 chortens visit",
         ],
+        image:
+          "https://images.unsplash.com/photo-1559112094-4137e19ff3a5?auto=format&fit=crop&w=1600&q=80",
       },
     ],
   },
@@ -185,6 +196,8 @@ export const destinations: Destination[] = [
           "Caving at Mawsmai",
           "Campfire storytelling nights",
         ],
+        image:
+          "https://images.unsplash.com/photo-1562157873-818bc0726f99?auto=format&fit=crop&w=1600&q=80",
       },
       {
         name: "Khasi Highlands Retreat",
@@ -200,6 +213,8 @@ export const destinations: Destination[] = [
           "Eco-resort stays",
           "Sunset at Laitlum canyon",
         ],
+        image:
+          "https://images.unsplash.com/photo-1548783307-f63adc1a43a0?auto=format&fit=crop&w=1600&q=80",
       },
     ],
   },
@@ -234,6 +249,8 @@ export const destinations: Destination[] = [
           "Tengboche monastery visit",
           "Kala Patthar viewpoint",
         ],
+        image:
+          "https://images.unsplash.com/photo-1509644851169-51ebdcca9864?auto=format&fit=crop&w=1600&q=80",
       },
       {
         name: "Kathmandu Heritage & Chitwan",
@@ -249,6 +266,8 @@ export const destinations: Destination[] = [
           "Tharu stick dance evening",
           "Phewa Lake boating",
         ],
+        image:
+          "https://images.unsplash.com/photo-1563144760-3da8c746b16c?auto=format&fit=crop&w=1600&q=80",
       },
     ],
   },
@@ -282,6 +301,8 @@ export const destinations: Destination[] = [
           "Riverside glamping",
           "Bonfire astronomy sessions",
         ],
+        image:
+          "https://images.unsplash.com/photo-1493815793585-d94ccbc86df0?auto=format&fit=crop&w=1600&q=80",
       },
       {
         name: "Chadar Frozen River Trek",
@@ -297,6 +318,8 @@ export const destinations: Destination[] = [
           "Cultural evening at Nerak",
           "Certified mountain guides",
         ],
+        image:
+          "https://images.unsplash.com/photo-1516131206008-dd041a9764fd?auto=format&fit=crop&w=1600&q=80",
       },
     ],
   },
