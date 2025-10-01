@@ -21,7 +21,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center gap-2 min-w-0">
             <img src="https://cdn.builder.io/api/v1/image/assets%2Fde743b16560c4ea5a4a46e65a2543876%2F4be0568d99d2469baa7ef6c274a8a1b2?format=webp&width=800" alt="StoriesByFoot logo" className="h-9 w-auto sm:h-10" />
-            <span className="text-lg sm:text-xl font-bold leading-tight text-white">
+            <span className="text-base sm:text-lg md:text-xl font-bold leading-tight text-white">
               StoriesBy<span className="text-secondary">Foot</span>
             </span>
           </div>
