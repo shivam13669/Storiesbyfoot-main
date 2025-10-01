@@ -186,13 +186,13 @@ const PackageCard = ({ travelPackage }: { travelPackage: DestinationPackage }) =
         </p>
 
         <div className="flex flex-wrap gap-2">
-          {travelPackage.highlights.map((highlight, index) => (
-            <Fragment key={highlight}>
-              <span className="rounded-full bg-muted px-3 py-1 text-xs font-medium text-muted-foreground">
-                {highlight}
-              </span>
-              {index === travelPackage.highlights.length - 1 ? null : null}
-            </Fragment>
+          {travelPackage.highlights.map((highlight) => (
+            <span
+              key={highlight}
+              className="rounded-full bg-muted px-3 py-1 text-xs font-medium text-muted-foreground"
+            >
+              {highlight}
+            </span>
           ))}
         </div>
       </CardContent>
