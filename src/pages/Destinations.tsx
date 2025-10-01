@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { destinationIconMap, destinations } from "@/data/destinations";
-import { cn } from "@/lib/utils";
 import { ArrowRight, MapPinned } from "lucide-react";
 import { Link } from "react-router-dom";
 
