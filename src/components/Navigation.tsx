@@ -16,12 +16,12 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-lg border-b border-white/10 text-white shadow-lg">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+      <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
+        <div className="flex items-center justify-between gap-3 h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <img src="https://cdn.builder.io/api/v1/image/assets%2Fde743b16560c4ea5a4a46e65a2543876%2F4be0568d99d2469baa7ef6c274a8a1b2?format=webp&width=800" alt="StoriesByFoot logo" className="h-10 w-auto" />
-            <span className="text-xl font-bold tracking-wide text-white">
+          <div className="flex items-center gap-2 min-w-0">
+            <img src="https://cdn.builder.io/api/v1/image/assets%2Fde743b16560c4ea5a4a46e65a2543876%2F4be0568d99d2469baa7ef6c274a8a1b2?format=webp&width=800" alt="StoriesByFoot logo" className="h-9 w-auto sm:h-10" />
+            <span className="text-lg sm:text-xl font-bold leading-tight text-white">
               StoriesBy<span className="text-secondary">Foot</span>
             </span>
           </div>
